@@ -6,8 +6,8 @@ applications:
     buildpack: nodejs_buildpack
     command: node server/app.js
     path: dist
-#services:
- # - your-name-uaa
+services:
+  - TimeAppUAA
  # - your-name-time-series
  # - your-name-asset
 env:
