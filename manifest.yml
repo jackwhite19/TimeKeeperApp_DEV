@@ -8,7 +8,7 @@ applications:
     path: dist
 services:
   - TimeAppUAA
- # - your-name-time-series
+  - TimeAppViews_DEV
  # - your-name-asset
 env:
     node_env: cloud
